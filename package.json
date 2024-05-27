@@ -5,7 +5,8 @@
   "main": "index.js",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest test",
+    "watch": "jest --watch test",
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js"
   },

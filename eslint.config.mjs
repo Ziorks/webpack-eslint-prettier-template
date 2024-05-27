@@ -6,7 +6,7 @@ import eslintConfigPrettier from "eslint-config-prettier";
 export default [
   { files: ["**/*.js"], languageOptions: { sourceType: "module" } },
   {
-    files: ["src/test/**"],
+    files: ["test/**"],
     ...jest.configs["flat/recommended"],
     ...jest.configs["flat/style"],
     rules: {
